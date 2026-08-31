@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(334, 12%, 42%);
+    margin: 1%;
+}
+
+a:visited{
+    color: brown;
+}
+
+header{
+    text-align: center;
+    
+}
+section{
+    background-color: #f7abd3;
+    padding: 18px;
+    margin-top: 15px;
+    border-left: 5px solid #9a2f7d;
+    border-right: 5px solid #9a2f7d;
+    border-radius: 10px;
+}
+
+section:hover{
+    padding: 19px;
+    border-radius: 7px;
+    background-color: #ea64ab;
+}
+
+.list{
+    color: rgb(17, 43, 63);
+}
+
+#abou{
+    font-size: xx-large;
+    
+}

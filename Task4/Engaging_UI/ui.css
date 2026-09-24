@@ -1,0 +1,94 @@
+@keyframes move {
+    0% {
+        transform: translate(10px, 670px);
+    }
+
+    25% {
+        transform: translate(1340px, 10px);
+    }
+
+    50% {
+        transform: translate(10px, 10px);
+    }
+
+    75% {
+        transform: translate(1340px, 670px);
+    }
+
+    100% {
+        transform: translate(10px, 670px);
+    }
+}
+
+
+@keyframes rotate { 
+        0%{transform: rotate(0deg);}
+        24%{transform: rotate(0deg);}
+        25%{transform: rotate(-128deg);}
+        49%{transform: rotate(-128deg);}
+        50%{transform: rotate(-263deg);}
+        74%{transform: rotate(-263deg);}
+        75%{transform: rotate(-125deg);}
+        99%{transform: rotate(-125deg);}
+        100%{transform: rotate(0deg);} 
+}
+
+#rocket{
+    position: fixed;
+    animation: move 10s linear infinite;
+}
+
+#rocket span{
+    display: inline-block;
+    animation: rotate 10s linear infinite;
+}
+body{
+    background-image:url(./pexels-felix-mittermeier-956999.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+li:hover{
+    font-size: large;
+}
+h1{
+    font-variant: small-caps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.card {
+    background: linear-gradient(135deg, #111827, #1e1b4b);
+    color: white;
+    border: 1px solid #3730a3;
+    border-radius: 15px;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #cbd5e1;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.35);
+    transition: 0.3s;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+@keyframes astro {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-20px);}
+    100%{transform: translateY(0px);}
+    
+}
+img{
+    animation-name: astro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

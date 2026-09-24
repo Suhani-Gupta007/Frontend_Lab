@@ -43,7 +43,7 @@
     animation: rotate 10s linear infinite;
 }
 body{
-    background-image:url(./pexels-felix-mittermeier-956999.jpg);
+    background-image:url(../images/pexels-felix-mittermeier-956999.jpg);
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover; 

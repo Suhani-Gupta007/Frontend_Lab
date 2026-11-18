@@ -1,0 +1,37 @@
+
+body {
+    background-color: rgb(244, 237, 227);
+    text-align: center;
+}
+
+header {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+.main {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.small {
+    width: 120px;
+    height: 100px;
+    margin: 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.small:hover {
+    width: 125px;
+    height: 105px;
+    margin: 5px;
+}
